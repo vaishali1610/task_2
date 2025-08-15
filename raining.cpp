@@ -5,7 +5,7 @@ void findUmbrella(){
     bool umbrella;
     while(flag<5){
         cout<<"Search for umbrella"<<endl;
-        cout<<"have you found the umbrella?"<<endl;
+        cout<<"have you found the umbrella? 0/1"<<endl;
         cin>>umbrella;
         if(umbrella) {
             cout<<"Found umbrella"<<endl;
@@ -20,7 +20,7 @@ int main(){
     bool rain;
     cin>>rain;
     if(!rain) cout<<"No need of umbrella"<<endl;
-    cout<<"Do you have a raincoat?"<<endl;
+    cout<<"Do you have a raincoat? 0/1"<<endl;
     cin>>rain;
     if(rain) cout<<"No need of umbrella"<<endl;
     else findUmbrella();
