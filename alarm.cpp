@@ -13,7 +13,7 @@ void alarm(){
         cout<<"Leave bed"<<endl;
         else{
             cout<<"Snooze for 5 minutes"<<endl;
-            this_thread::sleep_for(chrono::seconds(5));
+            this_thread::sleep_for(chrono::minutes(5));
             alarm();
         }
     }
