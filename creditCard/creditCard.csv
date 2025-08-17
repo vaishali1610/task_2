@@ -1,0 +1,4 @@
+CustomerID,Name,AccountValid,CardValid,FundsAvailable
+50,tom,1,1,2000
+51,angel,1,1,3000
+5,hank,1,1,50000
